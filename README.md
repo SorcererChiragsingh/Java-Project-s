@@ -1,4 +1,4 @@
-<h1 align="center">MY Java Project's</h1>
+<h1 align="center">Chirag Java Project's</h1>
 
 <div align="center">
 
@@ -7,8 +7,8 @@
     <img src="https://github.com/SorcererChiragsingh/Java-Projects/blob/main/MIT%20License.png" alt="MIT License" />
   </a>
 </h2>
-<h3 align="center" style="color:red;">
-Disclaimer: I will consistently update the README file as I build projects and add them to this GitHub repository.
+<h3 align="center">
+<font color="red">Disclaimer: I will consistently update the README file as I build projects and add them to this GitHub repository.</font>
 </h3>
 <p></p>
 
