@@ -1,4 +1,4 @@
-<h1 align="center">Basic Java Project's</h1>
+<h1 align="center">MY Java Project's</h1>
 
 <div align="center">
 
@@ -7,7 +7,9 @@
     <img src="https://github.com/SorcererChiragsingh/Java-Projects/blob/main/MIT%20License.png" alt="MIT License" />
   </a>
 </h2>
-
+<h3 align="center" style="color:red;">
+Disclaimer: I will consistently update the README file as I build projects and add them to this GitHub repository.
+</h3>
 <p></p>
 
 </div> <br/><br/>
@@ -24,7 +26,8 @@
 - [Acknowledgements](#acknowledgements)
 
 ## About
-
+- A portfolio of programming projects which will help me learn coding skills while providing a professional advantage during the job search as well.
+- 
 
 
 ## Features
@@ -35,8 +38,10 @@
 
 ## Screenshots
 
+- The projects in this list focus on different skills needed to build out a well-rounded Java skill set; progressing in difficulty as the list continues.
+
 ### 1.Project Title <a href="" target="_blank"><strong>➥ Live Demo for "Project Title"</strong></a>
-![](Link Here)
+![](Preview png Link Here)
 
 
 
@@ -66,9 +71,9 @@
 
 - I want to express my gratitude to the online resources that greatly assisted me in completing this project.
 
-- Firstly, I am thankful to [Geeks for Geeks](https://www.geeksforgeeks.org/web-development-projects/?ref=lbp) for providing extensive tutorials and examples on web development topics, which helped deepen my understanding of various concepts and techniques.
+- Firstly, I am thankful to [Geeks for Geeks](https://www.geeksforgeeks.org/java-projects/) for providing extensive tutorials and examples on web development topics, which helped deepen my understanding of various concepts and techniques.
 
-- Additionally, I would like to acknowledge [Teamwork.com](https://www.teamwork.com/blog/web-development-projects/) for its insights and resources on effective project management, which were invaluable in organizing and executing the different stages of this project.
+- Additionally, I would like to acknowledge [Columbia Engineering Boot Camps](https://bootcamp.cvn.columbia.edu/blog/java-projects-for-beginners-to-gain-skills/) & [Simplilearn](https://www.simplilearn.com/tutorials/java-tutorial/java-projects-for-beginner) for there insights and resources on effective project management, which were invaluable in organizing and executing the different stages of this project.
 
 - Their contributions have been instrumental in the successful development of these projects. 
 
