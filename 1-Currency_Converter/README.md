@@ -11,6 +11,7 @@
 ## Currency Supported
 
 - US Dollar
+- Indian Rupee
 - Euro
 - British Pound
 - Swiss Franc
