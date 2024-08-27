@@ -40,7 +40,7 @@
 
 - The projects in this list focus on different skills needed to build out a well-rounded Java skill set; progressing in difficulty as the list continues.
 
-### 1.Currency Converter <a href="" target="_blank"><strong>➥ Live Demo ""</strong></a>
+### 1.Currency Converter <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
 ![](https://github.com/SorcererChiragsingh/Java-Projects/blob/main/1-Currency_Converter/Preview1.PNG)
 
 
