@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h2 align="center">
+<h2 align="right">
   <a href="LICENSE">
     <img src="https://github.com/SorcererChiragsingh/Java-Projects/blob/main/MIT%20License.png" alt="MIT License" />
   </a>
@@ -40,16 +40,16 @@
 
 - The projects in this list focus on different skills needed to build out a well-rounded Java skill set; progressing in difficulty as the list continues.
 
-### 1.Project Title <a href="" target="_blank"><strong>➥ Live Demo for "Project Title"</strong></a>
-![](Preview png Link Here)
+### 1.Currency Converter <a href="" target="_blank"><strong>➥ Live Demo ""</strong></a>
+![](https://github.com/SorcererChiragsingh/Java-Projects/blob/main/1-Currency_Converter/Preview1.PNG)
 
 
 
 ## Tech Stack
 
-- Frontend: 
-- Backend: Not Applicable
-- Database:Not Applicable
+- Java
+- Ajax
+- Java servlets web features
 - Deployment:Github.io
 
 
