@@ -18,5 +18,5 @@
 - Japanese Yen
 
 ## Watch the Live Preview 👉[Click Here]()
-![Preview Image1]()
-![Preview Image2]()
+![Preview Image1](https://github.com/SorcererChiragsingh/Java-Projects/blob/main/1-Currency_Converter/Preview1.PNG)
+![Preview Image2](https://github.com/SorcererChiragsingh/Java-Projects/blob/main/1-Currency_Converter/Preview2.PNG)
