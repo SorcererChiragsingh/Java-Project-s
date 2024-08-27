@@ -4,7 +4,7 @@
 
 <h2 align="right">
   <a href="LICENSE">
-    <img src="https://github.com/SorcererChiragsingh/Java-Projects/blob/main/MIT%20License.png" alt="MIT License" />
+    <img src="https://github.com/SorcererChiragsingh/Java-Projects/blob/main/img/MIT%20License.png" alt="MIT License" />
   </a>
 </h2>
 <h3 align="center">
