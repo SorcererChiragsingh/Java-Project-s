@@ -39,7 +39,7 @@ public class AboutWindow extends JFrame {
 		lblAuthor.setBounds(65, 122, 219, 33);
 
 		// label with a clickable link
-		JLabel lblLink = new JLabel("https://github.com/SorcererChiragsingh/Java-Projects/blob/main/Profile_Pic");
+		JLabel lblLink = new JLabel("https://github.com/SorcererChiragsingh/Java-Projects/blob/main/img/Profile_Pic6.jpg");
 		lblLink.setBounds(65, 159, 219, 33);
 		lblLink.setHorizontalAlignment(SwingConstants.CENTER);
 		lblLink.setForeground(Color.BLUE);
@@ -48,7 +48,7 @@ public class AboutWindow extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 try {
-                    Desktop.getDesktop().browse(new URI("https://github.com/SorcererChiragsingh/Java-Projects/blob/main/Profile_Pic"));
+                    Desktop.getDesktop().browse(new URI("https://github.com/SorcererChiragsingh/Java-Projects/blob/main/img/Profile_Pic4.jpg"));
                 } catch (Exception ex) {
                 	ex.printStackTrace();
                 }
