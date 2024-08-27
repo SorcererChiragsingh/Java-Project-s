@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<h2 align="right">
+<h2 align="center">
   <a href="LICENSE">
     <img src="https://github.com/SorcererChiragsingh/Java-Projects/blob/main/img/MIT%20License.png" alt="MIT License" />
   </a>
