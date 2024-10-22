@@ -66,6 +66,7 @@
 - Java
 - Ajax
 - Java servlets web features
+- NetBeans IDE 23
 - Deployment:Github.io
 
 
