@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Banking Management System">
+  <ClassDiagramComponents>
+    <Class name="Account" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="conn" type="Connection" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="AccNum2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AccType" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Address" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Amount" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Answer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="DateofBirth" type="com.toedter.calendar.JDateChooser" visibility="private"/>
+        <Field name="Ethnicity" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="FullName" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Gender" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="MNum" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Mnum" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Mobile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Pin" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Pin2" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="SecurityQ" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="buttonGroup1" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jComboBox1" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel15" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jRadioButton1" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jRadioButton2" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jRadioButton3" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jTextField4" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jTextField6" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="randomAcc" returnType="void" visibility="public"/>
+        <Method name="randomMICR" returnType="void" visibility="public"/>
+        <Method name="randomPin" returnType="void" visibility="public"/>
+        <Method name="Bal" returnType="void" visibility="public"/>
+        <Method name="Pin2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jRadioButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="FullNameActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="AccNum2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Authentication" package="" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="conn" type="Connection" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="AccNum1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Logon" type="javax.swing.JButton" visibility="private"/>
+        <Field name="NewAccount" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Pin1" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="AccNum1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="NewAccountActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="LogonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="dbconnect" package="" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="conn" type="Connection" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="connectDb" returnType="Connection" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Loading" package="" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="conn" type="Connection" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="s" type="int" visibility="package"/>
+        <Field name="th" type="Thread" visibility="package"/>
+        <Field name="Loading" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="LoadingForm" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Loadingtxt" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Logo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Progressbar" type="javax.swing.JProgressBar" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setUpLoading" returnType="void" visibility="public"/>
+        <Method name="run" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MyPage" package="" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="conn" type="Connection" visibility="package"/>
+        <Field name="rs" type="ResultSet" visibility="package"/>
+        <Field name="pst" type="PreparedStatement" visibility="package"/>
+        <Field name="AboutTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="AccTransfer" type="javax.swing.JComboBox" visibility="private"/>
+        <Field name="AccnumDeposit" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AccnumProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AccnumTransfer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AccnumVB" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AccnumWithdraw" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AccnumtxtDeposit" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AccnumtxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AccnumtxtTransfer" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AccnumtxtVB" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AccnumtxtWithdraw" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AcctypeProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AcctypetxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AddressProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AddresstxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AmountWithdraw" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="AmounttxtTransfer" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="AmounttxtWithdraw" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Authorstxt" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="BalTransfer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="BalVB" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="BalWithdraw" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="BalanceDeposit" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="BaltxtDeposit" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="BaltxtTransfer" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="BaltxtVB" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="BaltxtWithdraw" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="CalculateDeposit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CalculateTransfer1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CalculateTransfer2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CalculateWithdraw" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Changepin" type="javax.swing.JButton" visibility="private"/>
+        <Field name="ChangepinTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="ClearChangepin" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CreditamounttxtTransfer" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="CurrentDate" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="CustomerlistTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Customers" type="javax.swing.JTable" visibility="private"/>
+        <Field name="DateofBirthProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="DateofbirthtxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Datetxt" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Deposit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="DepositInput" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="DepositTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="DeposittxtDeposit" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="EditProfile" type="javax.swing.JButton" visibility="private"/>
+        <Field name="EthnicityProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="EthnicitytxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="FullnameDeposit" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FullnameProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FullnameTransfer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FullnameVB" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FullnameWithdraw" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FullnametxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="FullnametxtTransfer" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="FullnametxtWithdraw" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="FunctionsTab" type="javax.swing.JTabbedPane" visibility="private"/>
+        <Field name="GenderProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="GendertxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="HomepageForm" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Info1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="LogoHomepage" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="MnumVB" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="MnumtxtVB" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="MobileProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="MobiletxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NametxtDeposit" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NametxtVB" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NewbalAccTransfer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NewbalDeposit" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NewbalTransfer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NewbalWithdraw" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NewbaltxtWithdraw" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NewpinChange" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NewpintxtChangepin" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="OldpinChange" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="OldpintxtChangepin" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="ProfileTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="SaveProfile" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SearchDeposit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SearchTop" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SearchTransfer" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SearchVB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SearchWithdraw" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SecurityqProfile" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="SecurityqtxtProfile" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="TransactionTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Transactions" type="javax.swing.JTable" visibility="private"/>
+        <Field name="Transfer" type="javax.swing.JButton" visibility="private"/>
+        <Field name="TransferInput" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="TransferNewInput" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="TransferTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Uname" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="UnametxtDeposit" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="UnametxtTransfer" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="UnametxtWithdraw" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="UsernameDeposit" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="UsernameTop" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="UsernameTransfer" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="UsernameVB" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="UsernameWithdraw" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="UsertxtVB" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Versiontxt" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="ViewbalTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Withdraw" type="javax.swing.JButton" visibility="private"/>
+        <Field name="WithdrawTab" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="Calendar" returnType="void" visibility="public"/>
+        <Method name="Table1" returnType="void" visibility="public"/>
+        <Method name="Table2" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="EditProfileActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SearchTopActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SaveProfileActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SearchDepositActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CalculateDepositActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="DepositActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CalculateTransfer2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SearchTransferActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CalculateTransfer1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="Account" returnType="void" visibility="public"/>
+        <Method name="AccTransferPopupMenuWillBecomeInvisible" returnType="void" visibility="private">
+          <Argument type="javax.swing.event.PopupMenuEvent" name="evt"/>
+        </Method>
+        <Method name="TransferC" returnType="void" visibility="public"/>
+        <Method name="TransferD" returnType="void" visibility="public"/>
+        <Method name="TransferActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SearchWithdrawActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CalculateWithdrawActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="WithdrawActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SearchVBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ClearChangepinActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ChangepinActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UIManager" package="" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="setLookAndFeel" returnType="void" visibility="package" isStatic="true">
+          <Argument type="String" name="comjtattooplafsmartSmartLookAndFeel"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
