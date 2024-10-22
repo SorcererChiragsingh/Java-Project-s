@@ -44,7 +44,23 @@
 ![](https://github.com/SorcererChiragsingh/Java-Projects/blob/main/1-Currency_Converter/Preview1.PNG)
 
 
+### 2.Java Billing System <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
+![]()
 
+### 3.Java Password Generator <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
+![]()
+
+### 4.Java Snake Game <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
+![]()
+
+### 5.Java NetBeans Banking Management System <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
+![]()
+
+
+<!-- 
+### 00. <a href="" target="_blank"><strong>➥ Live Demo for </strong></a>
+![]()
+-->
 ## Tech Stack
 
 - Java
